@@ -341,14 +341,6 @@ template {
   display: none;
 }
 
-body{
-    background-color: #ffffff;
-}
-
-.box a {
-        color:red;
-    }
-
 /*Do not edit modules/_sprite directory as it is generated automatically by Gulp */
 
 .icon {
@@ -388,3 +380,16 @@ body{
     height: 44px;
     background-position: 0 100%;
   }
+
+.header {
+  background: #000;
+  font-size: 13px; }
+
+.box {
+  background-color: #4d88ec; }
+
+p {
+  color: blue; }
+
+p:hover {
+    color: red; }

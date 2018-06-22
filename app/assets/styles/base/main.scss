@@ -1,0 +1,22 @@
+$mainBlue: #4d88ec;
+// scss work sample 
+$font-size:13px;
+@mixin bg {
+    background: #000;
+    font-size: $font-size;
+}
+
+.header {
+    @include bg;
+}
+
+.box {
+    background-color: $mainBlue;
+}
+
+p {
+    color: blue;
+    &:hover {
+        color: red;
+    }
+}
