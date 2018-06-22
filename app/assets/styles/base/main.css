@@ -1,0 +1,11 @@
+$mainBlue: #ffffff;
+
+body{
+    background-color: $mainBlue;
+}
+
+.box {
+    a {
+        color:red;
+    }
+}
