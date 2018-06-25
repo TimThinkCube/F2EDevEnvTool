@@ -7,7 +7,7 @@ Front-end new project base.
 * autoprefixer
 * postcss
 * normalize
-
+* sass/scss support
 ## images
 * sprite
 * svg2png
